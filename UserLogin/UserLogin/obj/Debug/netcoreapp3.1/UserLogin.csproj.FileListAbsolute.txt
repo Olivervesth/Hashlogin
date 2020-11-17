@@ -1,0 +1,13 @@
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.exe
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.deps.json
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.runtimeconfig.json
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.runtimeconfig.dev.json
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.dll
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\bin\Debug\netcoreapp3.1\UserLogin.pdb
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.csprojAssemblyReference.cache
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.AssemblyInfoInputs.cache
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.AssemblyInfo.cs
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.csproj.CoreCompileInputs.cache
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.dll
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.pdb
+C:\Users\Mr.Gawzy\source\repos\UserLogin\UserLogin\obj\Debug\netcoreapp3.1\UserLogin.genruntimeconfig.cache
