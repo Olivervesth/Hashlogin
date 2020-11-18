@@ -15,27 +15,40 @@ namespace UserLogin
                 switch (choice)
                 {
                     case 1:
-                         Login();
+                        Login();
                         break;
                     case 2:
-                        // Signup();
+                        Signup();
                         break;
                     default:
                         break;
                 }
             }
         }
+        private void Signup()
+        {
+            Write w = new Write();
+            Console.Write("UserName: ");
+            string username = Console.ReadLine();
+            Console.Clear();
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
+            byte[] salt = Hash.GenerateSalt();
+            Console.WriteLine(Convert.ToBase64String(salt));
+            byte[] hashedPassword = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(password),salt);
+            w.SaveUser(username, Convert.ToBase64String(hashedPassword), Convert.ToBase64String(salt));
+        }
         private void Login()
         {
             Read r = new Read();
-            Console.WriteLine("UserName: ");
+            Console.Write("UserName: ");
             string username = Console.ReadLine();
-                Console.Clear();
-            Console.WriteLine("Password: ");
+            Console.Clear();
+            Console.Write("Password: ");
             string password = Console.ReadLine();
-            r.ReadUsers(StringToSaltHash(password),username);
+            r.ReadUsers(username,password);
         }
-        public string StringToSaltHash(string psw)
+        public string HashPsw(string psw)
         {
             byte[] salt = Hash.GenerateSalt();
             byte[] hashedPassword = Hash.HashPasswordWithSalt(Encoding.UTF8.GetBytes(psw), salt);
