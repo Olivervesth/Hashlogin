@@ -36,5 +36,12 @@ namespace UserLogin
                 return sha256.ComputeHash(Combine(toBeHashed, salt));
             }
         }
+        public static byte[] HashPassword(byte[] toBeHashed)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                return sha256.ComputeHash(toBeHashed);
+            }
+        }
     }
 }
